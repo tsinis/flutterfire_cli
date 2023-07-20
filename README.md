@@ -2,39 +2,28 @@
 
 <p align="center">
   <a href="https://github.com/invertase/melos#readme-badge"><img src="https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square" alt="Melos" /></a>
-  <a href="https://invertase.link/discord">
-   <img src="https://img.shields.io/discord/295953187817521152.svg?style=flat-square&colorA=7289da&label=Chat%20on%20Discord" alt="Chat on Discord">
- </a>
-  <!---<a href="https://docs.page"><img src="https://img.shields.io/badge/powered%20by-docs.page-34C4AC.svg?style=flat-square" alt="docs.page" /></a>-->
+  <a href="https://docs.page"><img src="https://img.shields.io/badge/powered%20by-docs.page-34C4AC.svg?style=flat-square" alt="docs.page" /></a>
 </p>
 
 <p align="center">
-  <a href="https://firebase.google.com/docs/flutter/setup">Documentation</a> &bull; 
   <a href="https://github.com/invertase/flutterfire_cli/blob/main/LICENSE">License</a>
 </p>
 
-A CLI to help with using [Firebase](https://firebase.google.com/docs/flutter) in your Flutter applications.
 
-## Local development setup
+A CLI to help with using [FlutterFire](https://firebase.flutter.dev) in your Flutter applications.
 
-To set up and use this CLI repo locally for the purposes of contributing, clone it and run the following commands from the root of the repository:
-
-```bash
-# Activate CLI from path:
-dart pub global activate --source="path" . --executable="flutterfire" --overwrite
-
-# Confirm you now using a local development version:
-flutterfire --help
-# You should now see a banner printed at the top of the help output similar to:
-# ------------------------------------------------------------------
-# | You are running a local development version of FlutterFire CLI. |
-# ------------------------------------------------------------------
-```
 
 ## Install
 
 ```bash
 dart pub global activate flutterfire_cli
+```
+
+## Usage
+
+```bash
+# Inside your Flutter app directory:
+flutterfire --help
 ```
 
 ---
